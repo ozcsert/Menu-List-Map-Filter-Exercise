@@ -27,10 +27,19 @@
   }
   .btn-item {
     margin-left: 15px;
-    border-color: black;
-    border-radius: 1px;
+    border-color: rgb(214, 154, 80);
+    border-radius: 5px;
+    
   }
   
+  .btnhvr:hover {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,205,148,1) 100%);
+    border-color:  rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(222, 167, 58) 100%);;
+    
+  }
+
   .photo {
     width: 30%;
     height: 175px;
